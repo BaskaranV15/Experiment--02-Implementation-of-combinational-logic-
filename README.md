@@ -2,7 +2,7 @@
 Implementation of combinational logic gates
  
 ## AIM:
-To implement the given logic function verify its operation in Quartus using Verilog programming.
+To implement the given logic function and verify its operation in Quartus using Verilog programming.
  F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
  
@@ -14,10 +14,10 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 
 ## Theory
- 
-
+ Logic gates are electronic circuits which perform logical functions on one or more inputs to produce one output.
 ## Logic Diagram
 ## Procedure
+The input and output variables are allocated with letter symbols. The exact truth table that defines the required relationships between inputs and outputs is derived. Boolean function is obtained from each output .The logic diagram is drawn.
 ## Program:
 ```
 module combination(a,b,c,d,x,y,z,w,f1,f2);
@@ -46,7 +46,7 @@ RegisterNumber:  212222230020
 ## RTL realization
 
 ## Output:
-
+![DIG44](https://user-images.githubusercontent.com/118703522/234774104-572a0918-9adc-4809-9814-104bb7f7428c.png)
 ## RTL
 ![dig1](https://user-images.githubusercontent.com/118703522/234770411-709d21ec-21ef-4cd7-af02-9138b4fdf8d1.png)
 ![dig2](https://user-images.githubusercontent.com/118703522/234770459-d9e72082-62c4-4cc2-8601-f054701a47ad.png)
